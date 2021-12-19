@@ -34,19 +34,20 @@ public class Player : MonoBehaviour
             lastRoad.gameObject.SetActive(false);
             
             Road newRoad = NextRoad();
-            
-     
-            
-            
-           
+
+            lastRoad = currentRoad;
+
+
+            newRoad.gameObject.SetActive(true);
+
             newRoad.transform.localPosition = 
                 new Vector3(0f, 
                 0f, 
                 currentRoad.transform.position.z 
                 + currentRoad.roadLength);
 
-            lastRoad = currentRoad;
-            newRoad.gameObject.SetActive(true);
+            
+           
             currentRoad = newRoad;
 
         }
