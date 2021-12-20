@@ -7,6 +7,10 @@ public class Road : MonoBehaviour
     public int roadID;
     public float roadLength;
 
+    private void Start()
+    {
+        roadLength = transform.Find("Terrain").GetComponent<Terrain>().terrainData.size.z;
+    }
 
     void Update()
     {

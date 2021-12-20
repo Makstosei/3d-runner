@@ -31,11 +31,14 @@ public class Player : MonoBehaviour
 
         if (other.gameObject.name == "Trigger")
         {
+            
+
             lastRoad.gameObject.SetActive(false);
             
             Road newRoad = NextRoad();
 
-            lastRoad = currentRoad;
+
+            
 
 
             newRoad.gameObject.SetActive(true);
@@ -46,8 +49,8 @@ public class Player : MonoBehaviour
                 currentRoad.transform.position.z 
                 + currentRoad.roadLength);
 
-            
-           
+            lastRoad = currentRoad;
+
             currentRoad = newRoad;
 
         }

@@ -454,6 +454,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4172068240736130659, guid: 33905f60544b45644b4da318048a6aa2, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4172068241033903481, guid: 33905f60544b45644b4da318048a6aa2, type: 3}
       propertyPath: m_Name
       value: Road3
@@ -511,6 +515,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4862702206012842763, guid: c386241f775f33641b65c46743e5371b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4862702206130078877, guid: c386241f775f33641b65c46743e5371b, type: 3}
       propertyPath: m_Name
       value: Road2
@@ -629,6 +637,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6599164700492984556, guid: d18ad05ff42cfb64ca317c11b488db13, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6599164700513884893, guid: d18ad05ff42cfb64ca317c11b488db13, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -733,6 +745,10 @@ PrefabInstance:
     - target: {fileID: 8570066266817717852, guid: a7d2707e48b99d34b8a67256cae0e414, type: 3}
       propertyPath: m_Name
       value: Road1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8570066267278441701, guid: a7d2707e48b99d34b8a67256cae0e414, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a7d2707e48b99d34b8a67256cae0e414, type: 3}
